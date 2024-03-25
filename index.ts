@@ -3,6 +3,8 @@
 import inqurer from "inquirer";
 
 const randomNumber = Math.floor(Math.random()*6+1);
+console .log("Welcome to the guessing number")
+
 const answer =await inqurer.prompt([
   {
     name: "userGuessedNumber",
